@@ -36,6 +36,9 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     apple: "/apple-icon.png",
   },
+  verification: {
+    google: "p9LpkJddW9KWZI5a4ogy0erH0sMWbCKSEodZ6OAOIo8",
+  },
   robots: {
     index: true,
     follow: true,
@@ -93,6 +96,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        <meta
+          name="google-site-verification"
+          content="p9LpkJddW9KWZI5a4ogy0erH0sMWbCKSEodZ6OAOIo8"
+        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-L8CRSEN1H1"
           strategy="afterInteractive"
