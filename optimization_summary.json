@@ -1,0 +1,570 @@
+[
+  {
+    "name": "chicken-rice-bowl.webp",
+    "destPath": "public\\images\\menu\\chicken-rice-bowl.webp",
+    "sizeKb": "53.5",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/chicken-and-rice_.avif",
+    "seoAlt": "Chicken and Rice Bowl – CAVA curated bowl with grilled chicken, hummus, and saffron basmati rice",
+    "menuIds": [
+      "chicken-rice-bowl",
+      "brown-rice",
+      "saffron-basmati-rice",
+      "black-lentils",
+      "grilled-chicken",
+      "kids-grilled-chicken"
+    ]
+  },
+  {
+    "name": "greek-salad-bowl.webp",
+    "destPath": "public\\images\\menu\\greek-salad-bowl.webp",
+    "sizeKb": "52.6",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/greek-salad-bowl.avif",
+    "seoAlt": "Greek Salad Bowl – CAVA fresh Mediterranean salad bowl with grilled chicken, feta, and Greek vinaigrette",
+    "menuIds": [
+      "greek-salad-bowl",
+      "super-greens",
+      "power-greens",
+      "baby-spinach",
+      "arugula",
+      "romaine",
+      "roasted-vegetables",
+      "shredded-romaine",
+      "tomato-onion",
+      "persian-cucumber",
+      "tomato-cucumber",
+      "kalamata-olives",
+      "crumbled-feta",
+      "greek-vinaigrette"
+    ]
+  },
+  {
+    "name": "harissa-avocado-bowl.webp",
+    "destPath": "public\\images\\menu\\harissa-avocado-bowl.webp",
+    "sizeKb": "56.9",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/harissa-avocado-bowl_.avif",
+    "seoAlt": "Harissa Avocado Bowl – CAVA signature bowl with hot harissa chicken, fresh avocado, and Crazy Feta",
+    "menuIds": [
+      "harissa-avocado-bowl",
+      "harissa-honey-chicken",
+      "fresh-avocado",
+      "hot-harissa-vinaigrette"
+    ]
+  },
+  {
+    "name": "falafel-crunch-bowl.webp",
+    "destPath": "public\\images\\menu\\falafel-crunch-bowl.webp",
+    "sizeKb": "64.6",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/falafel-crunch-bowl.avif",
+    "seoAlt": "Falafel Crunch Bowl – CAVA vegetarian bowl packed with crispy falafel, hummus, and pita crisps",
+    "menuIds": [
+      "falafel-crunch-bowl",
+      "falafel",
+      "kids-falafel",
+      "pita-crisps",
+      "sumac-cabbage-slaw"
+    ]
+  },
+  {
+    "name": "spicy-lamb-avocado-bowl.webp",
+    "destPath": "public\\images\\menu\\spicy-lamb-avocado-bowl.webp",
+    "sizeKb": "70.9",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/spicy-lamb-avocado.avif",
+    "seoAlt": "Spicy Lamb and Avocado Bowl – CAVA curated bowl featuring spiced lamb meatballs, feta, and avocado",
+    "menuIds": [
+      "spicy-lamb-avocado-bowl",
+      "braised-lamb",
+      "spicy-lamb-meatballs",
+      "kids-spicy-lamb-meatballs",
+      "kids-braised-lamb"
+    ]
+  },
+  {
+    "name": "steak-harissa-bowl.webp",
+    "destPath": "public\\images\\menu\\steak-harissa-bowl.webp",
+    "sizeKb": "72.1",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/steak-harissa-bowl_.avif",
+    "seoAlt": "Steak and Harissa Bowl – CAVA curated protein bowl with grilled steak and harissa vinaigrette",
+    "menuIds": [
+      "steak-harissa-bowl",
+      "grilled-steak",
+      "kids-grilled-steak"
+    ]
+  },
+  {
+    "name": "grains-bowl.webp",
+    "destPath": "public\\images\\menu\\grains-bowl.webp",
+    "sizeKb": "24.8",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/Grains-bowl.avif",
+    "seoAlt": "Grains Bowl – CAVA Mediterranean grain bowl with saffron basmati and brown rice",
+    "menuIds": [
+      "grains-bowl"
+    ]
+  },
+  {
+    "name": "greens-grains-bowl.webp",
+    "destPath": "public\\images\\menu\\greens-grains-bowl.webp",
+    "sizeKb": "29.9",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/Greensgrains.avif",
+    "seoAlt": "Greens and Grains Bowl – CAVA balanced Mediterranean bowl with crisp greens and whole grains",
+    "menuIds": [
+      "greens-grains-bowl"
+    ]
+  },
+  {
+    "name": "greek-chicken-pita.webp",
+    "destPath": "public\\images\\menu\\greek-chicken-pita.webp",
+    "sizeKb": "16.4",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/greek-chicken.avif",
+    "seoAlt": "Greek Chicken Pita – CAVA grilled chicken wrapped in warm pita with tzatziki, feta, and cucumbers",
+    "menuIds": [
+      "greek-chicken-pita"
+    ]
+  },
+  {
+    "name": "crispy-falafel-pita.webp",
+    "destPath": "public\\images\\menu\\crispy-falafel-pita.webp",
+    "sizeKb": "16.0",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/crispy-falllafel.avif",
+    "seoAlt": "Crispy Falafel Pita – CAVA Mediterranean pita wrap filled with warm crispy falafel and hummus",
+    "menuIds": [
+      "crispy-falafel-pita"
+    ]
+  },
+  {
+    "name": "steak-feta-pita.webp",
+    "destPath": "public\\images\\menu\\steak-feta-pita.webp",
+    "sizeKb": "18.9",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/steak-feta.avif",
+    "seoAlt": "Steak and Feta Pita – CAVA warm pita wrap with tender grilled steak, Crazy Feta, and pickled onions",
+    "menuIds": [
+      "steak-feta-pita"
+    ]
+  },
+  {
+    "name": "garlic-chicken-veggie-pita.webp",
+    "destPath": "public\\images\\menu\\garlic-chicken-veggie-pita.webp",
+    "sizeKb": "14.0",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/garlic-chichen.avif",
+    "seoAlt": "Garlic Chicken and Veggie Pita – CAVA pita wrap loaded with savory grilled chicken and roasted vegetables",
+    "menuIds": [
+      "garlic-chicken-veggie-pita",
+      "garlic-dressing"
+    ]
+  },
+  {
+    "name": "spicy-lamb-meatball-pita.webp",
+    "destPath": "public\\images\\menu\\spicy-lamb-meatball-pita.webp",
+    "sizeKb": "16.2",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/pita.avif",
+    "seoAlt": "Spicy Lamb Meatball Pita – CAVA Mediterranean pita wrap with spicy lamb meatballs and garlic dressing",
+    "menuIds": [
+      "spicy-lamb-meatball-pita"
+    ]
+  },
+  {
+    "name": "spicy-chicken-avocado-pita.webp",
+    "destPath": "public\\images\\menu\\spicy-chicken-avocado-pita.webp",
+    "sizeKb": "16.4",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/chicken-avacado.avif",
+    "seoAlt": "Spicy Chicken Avocado Pita – CAVA handcrafted pita wrap with fiery grilled chicken and ripe avocado",
+    "menuIds": [
+      "spicy-chicken-avocado-pita"
+    ]
+  },
+  {
+    "name": "tzatziki.webp",
+    "destPath": "public\\images\\menu\\tzatziki.webp",
+    "sizeKb": "30.6",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/tzatziki_20240118.avif",
+    "seoAlt": "Tzatziki Dip – CAVA traditional Greek yogurt dip blended with grated cucumber and fresh garlic",
+    "menuIds": [
+      "tzatziki"
+    ]
+  },
+  {
+    "name": "hummus.webp",
+    "destPath": "public\\images\\menu\\hummus.webp",
+    "sizeKb": "48.0",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/hummus_.avif",
+    "seoAlt": "Traditional Hummus – CAVA creamy chickpea spread blended with rich tahini and Mediterranean spices",
+    "menuIds": [
+      "hummus"
+    ]
+  },
+  {
+    "name": "roasted-eggplant-dip.webp",
+    "destPath": "public\\images\\menu\\roasted-eggplant-dip.webp",
+    "sizeKb": "61.0",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/roasted-eggplant-dip_.avif",
+    "seoAlt": "Roasted Eggplant Dip – CAVA smoky Mediterranean roasted eggplant spread with garlic and herbs",
+    "menuIds": [
+      "roasted-eggplant-dip"
+    ]
+  },
+  {
+    "name": "crazy-feta.webp",
+    "destPath": "public\\images\\menu\\crazy-feta.webp",
+    "sizeKb": "53.1",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/crazy-feta_.avif",
+    "seoAlt": "Crazy Feta – CAVA signature spicy whipped feta dip with jalapeño peppers and extra virgin olive oil",
+    "menuIds": [
+      "crazy-feta"
+    ]
+  },
+  {
+    "name": "harissa.webp",
+    "destPath": "public\\images\\menu\\harissa.webp",
+    "sizeKb": "73.9",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/harissa_.avif",
+    "seoAlt": "Harissa Dip – CAVA bold, traditional North African red chili paste with aromatic spices",
+    "menuIds": [
+      "harissa"
+    ]
+  },
+  {
+    "name": "red-pepper-hummus.webp",
+    "destPath": "public\\images\\menu\\red-pepper-hummus.webp",
+    "sizeKb": "64.4",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/red-pepper-hummus.avif",
+    "seoAlt": "Red Pepper Hummus – CAVA sweet roasted red pepper blended with smooth hummus and spices",
+    "menuIds": [
+      "red-pepper-hummus"
+    ]
+  },
+  {
+    "name": "side-pita.webp",
+    "destPath": "public\\images\\menu\\side-pita.webp",
+    "sizeKb": "36.9",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/side-pita_.avif",
+    "seoAlt": "Side Pita Bread – CAVA warm, fluffy Mediterranean pita bread baked fresh daily",
+    "menuIds": [
+      "whole-pita",
+      "side-quarter-pita"
+    ]
+  },
+  {
+    "name": "classic-pita-chips.webp",
+    "destPath": "public\\images\\menu\\classic-pita-chips.webp",
+    "sizeKb": "36.3",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/pita-chips_.avif",
+    "seoAlt": "Classic Pita Chips – CAVA crispy seasoned pita chips seasoned with sea salt",
+    "menuIds": [
+      "classic-pita-chips",
+      "cinnamon-sugar-pita-chips",
+      "kids-pita-chips"
+    ]
+  },
+  {
+    "name": "sumac-onion-pita-chips.webp",
+    "destPath": "public\\images\\menu\\sumac-onion-pita-chips.webp",
+    "sizeKb": "56.7",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/sumac-sour-cream-pita-chips_.avif",
+    "seoAlt": "Sumac Sour Cream and Onion Pita Chips – CAVA zesty seasoned pita chips dusted with tangy sumac",
+    "menuIds": [
+      "harissa-bbq-pita-chips",
+      "garlic-ranch-pita-chips"
+    ]
+  },
+  {
+    "name": "greyston-blondie.webp",
+    "destPath": "public\\images\\menu\\greyston-blondie.webp",
+    "sizeKb": "20.1",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/blondie_.avif",
+    "seoAlt": "Greyston Chocolate Chip Blondie – CAVA rich, buttery blondie loaded with gourmet chocolate chips",
+    "menuIds": [
+      "greyston-chocolate-chip-blondie"
+    ]
+  },
+  {
+    "name": "greyston-brownie.webp",
+    "destPath": "public\\images\\menu\\greyston-brownie.webp",
+    "sizeKb": "21.1",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/brownie_.avif",
+    "seoAlt": "Greyston Chocolate Fudge Brownie – CAVA decadent fudgy dark chocolate brownie from Greyston Bakery",
+    "menuIds": [
+      "greyston-chocolate-fudge-brownie"
+    ]
+  },
+  {
+    "name": "salted-chocolate-oat-cookie.webp",
+    "destPath": "public\\images\\menu\\salted-chocolate-oat-cookie.webp",
+    "sizeKb": "23.9",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/chocolate-chip-oat-cookie_.avif",
+    "seoAlt": "Whisked! Salted Dark Chocolate Oat Cookie – CAVA chewy oat cookie baked with dark chocolate and sea salt",
+    "menuIds": [
+      "salted-dark-chocolate-oat-cookie",
+      "apricot-honey-oat-cookie"
+    ]
+  },
+  {
+    "name": "kids-meal.webp",
+    "destPath": "public\\images\\menu\\kids-meal.webp",
+    "sizeKb": "42.6",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/kids-meal.avif",
+    "seoAlt": "Kids Meal at CAVA – Balanced Mediterranean meal for kids with choice of protein, grain, and mini pita",
+    "menuIds": [
+      "kids-meal",
+      "kids-roasted-vegetables",
+      "kids-saffron-basmati-rice",
+      "kids-brown-rice",
+      "kids-black-lentils"
+    ]
+  },
+  {
+    "name": "classic-lemonade.webp",
+    "destPath": "public\\images\\menu\\classic-lemonade.webp",
+    "sizeKb": "33.3",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/classic-lemonade_.avif",
+    "seoAlt": "Classic Lemonade – CAVA house-made tart and sweet refreshing lemonade crafted with real lemons",
+    "menuIds": [
+      "classic-lemonade-16oz",
+      "classic-lemonade-22oz"
+    ]
+  },
+  {
+    "name": "tangerine-aleppo.webp",
+    "destPath": "public\\images\\menu\\tangerine-aleppo.webp",
+    "sizeKb": "31.7",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/tangerine-aleppo_.avif",
+    "seoAlt": "Tangerine Aleppo Drink – CAVA specialty beverage blending sweet citrus tangerine with mild Aleppo pepper",
+    "menuIds": [
+      "tangerine-aleppo",
+      "strawberry-ginger-16oz",
+      "strawberry-ginger-22oz"
+    ]
+  },
+  {
+    "name": "blueberry-lavender.webp",
+    "destPath": "public\\images\\menu\\blueberry-lavender.webp",
+    "sizeKb": "45.5",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/blueberry-lavender_.avif",
+    "seoAlt": "Blueberry Lavender Juice – CAVA refreshing handcrafted drink with wild blueberry and floral lavender",
+    "menuIds": [
+      "blueberry-lavender-16oz",
+      "blueberry-lavender-22oz"
+    ]
+  },
+  {
+    "name": "cucumber-mint-lime.webp",
+    "destPath": "public\\images\\menu\\cucumber-mint-lime.webp",
+    "sizeKb": "30.6",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/cucumber-mint-lime_.avif",
+    "seoAlt": "Cucumber Mint Lime Agua Fresca – CAVA cool crisp drink with fresh cucumber, mint, and zesty lime",
+    "menuIds": [
+      "cucumber-mint-lime-16oz",
+      "cucumber-mint-lime-22oz"
+    ]
+  },
+  {
+    "name": "jasmine-green-tea.webp",
+    "destPath": "public\\images\\menu\\jasmine-green-tea.webp",
+    "sizeKb": "50.7",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/jasmine-tea_.avif",
+    "seoAlt": "Jasmine Green Tea – CAVA naturally brewed organic green tea infused with delicate fragrant jasmine blossoms",
+    "menuIds": [
+      "jasmine-green-tea-16oz",
+      "jasmine-green-tea-22oz"
+    ]
+  },
+  {
+    "name": "sweet-tea.webp",
+    "destPath": "public\\images\\menu\\sweet-tea.webp",
+    "sizeKb": "59.5",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/sweet-tea_.avif",
+    "seoAlt": "Sweet Tea – CAVA traditional Southern-style brewed black tea gently sweetened with pure cane sugar",
+    "menuIds": [
+      "sweet-tea-16oz",
+      "sweet-tea-22oz",
+      "unsweetened-black-tea-16oz",
+      "unsweetened-black-tea-22oz"
+    ]
+  },
+  {
+    "name": "fountain-soda.webp",
+    "destPath": "public\\images\\menu\\fountain-soda.webp",
+    "sizeKb": "43.9",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/mexicane-cola_.avif",
+    "seoAlt": "Maine Root Fountain Soda – CAVA fair trade fountain soda crafted with real organic cane sugar",
+    "menuIds": [
+      "maine-root-soda-16oz",
+      "maine-root-soda-22oz",
+      "maine-root-diet-16oz",
+      "maine-root-diet-22oz"
+    ]
+  },
+  {
+    "name": "spindrift-lemon.webp",
+    "destPath": "public\\images\\menu\\spindrift-lemon.webp",
+    "sizeKb": "56.2",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/spindrift-lemon_.avif",
+    "seoAlt": "Spindrift Lemon Sparkling Water – CAVA crisp sparkling water flavored with real squeezed lemons",
+    "menuIds": [
+      "spindrift-lemon",
+      "spindrift-grapefruit"
+    ]
+  },
+  {
+    "name": "spindrift-half-tea.webp",
+    "destPath": "public\\images\\menu\\spindrift-half-tea.webp",
+    "sizeKb": "43.3",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/spindrift-half-tea-half-lemon.avif",
+    "seoAlt": "Spindrift Half Tea & Half Lemon – CAVA sparkling water with brewed real black tea and fresh squeezed lemon",
+    "menuIds": [
+      "spindrift-half-tea"
+    ]
+  },
+  {
+    "name": "open-water-still.webp",
+    "destPath": "public\\images\\menu\\open-water-still.webp",
+    "sizeKb": "40.1",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/still-water_.avif",
+    "seoAlt": "Open Water Still – CAVA purified ultra-refreshing still water packaged in eco-friendly aluminum bottle",
+    "menuIds": [
+      "open-water-still"
+    ]
+  },
+  {
+    "name": "open-water-sparkling.webp",
+    "destPath": "public\\images\\menu\\open-water-sparkling.webp",
+    "sizeKb": "40.3",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/sparkling-water_.avif",
+    "seoAlt": "Open Water Sparkling – CAVA crisp effervescent sparkling water packaged in recyclable aluminum bottle",
+    "menuIds": [
+      "open-water-sparkling"
+    ]
+  },
+  {
+    "name": "kids-apple-juice.webp",
+    "destPath": "public\\images\\menu\\kids-apple-juice.webp",
+    "sizeKb": "18.0",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/apple-juice_.avif",
+    "seoAlt": "Honest Kids Organic Apple Juice – CAVA certified organic 100% apple juice pouch for kids",
+    "menuIds": [
+      "honest-kids-apple-juice"
+    ]
+  },
+  {
+    "name": "kids-milk.webp",
+    "destPath": "public\\images\\menu\\kids-milk.webp",
+    "sizeKb": "17.4",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/milk_.avif",
+    "seoAlt": "Organic Lowfat 1% Milk – CAVA healthy certified organic low-fat milk bottle for kids",
+    "menuIds": [
+      "organic-1-percent-milk"
+    ]
+  },
+  {
+    "name": "kids-chocolate-milk.webp",
+    "destPath": "public\\images\\menu\\kids-chocolate-milk.webp",
+    "sizeKb": "20.7",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/chocolate-milk_.avif",
+    "seoAlt": "Organic Chocolate Milk – CAVA delicious certified organic lowfat chocolate milk bottle",
+    "menuIds": [
+      "organic-chocolate-milk"
+    ]
+  },
+  {
+    "name": "cava-drinks.webp",
+    "destPath": "public\\images\\cava-drinks.webp",
+    "sizeKb": "45.5",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/drinks.avif",
+    "seoAlt": "CAVA Drinks Menu – Handcrafted juices, organic teas, and refreshing fountain sodas",
+    "menuIds": []
+  },
+  {
+    "name": "cava-desserts.webp",
+    "destPath": "public\\images\\cava-desserts.webp",
+    "sizeKb": "21.1",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/desserts.avif",
+    "seoAlt": "CAVA Desserts Menu – Freshly baked brownies, blondies, and artisan oat cookies",
+    "menuIds": []
+  },
+  {
+    "name": "cava-sides.webp",
+    "destPath": "public\\images\\cava-sides.webp",
+    "sizeKb": "53.1",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/sides.avif",
+    "seoAlt": "CAVA Sides & Dips – Crispy pita chips, warm pita bread, and handcrafted Mediterranean dips",
+    "menuIds": []
+  },
+  {
+    "name": "cava-catering-menu.webp",
+    "destPath": "public\\images\\cava-catering-menu.webp",
+    "sizeKb": "92.7",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/05/Cava-Catering-Menu-1024x683-1.webp",
+    "seoAlt": "CAVA Catering Menu – Mediterranean catering trays, bowls, and pita packages for events",
+    "menuIds": []
+  },
+  {
+    "name": "cava-locations.webp",
+    "destPath": "public\\images\\cava-locations.webp",
+    "sizeKb": "93.1",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/cava-location-1024x683.webp",
+    "seoAlt": "CAVA Locations & Hours – Find Mediterranean fast casual restaurant near you",
+    "menuIds": []
+  },
+  {
+    "name": "cava-holiday-hours.webp",
+    "destPath": "public\\images\\cava-holiday-hours.webp",
+    "sizeKb": "71.6",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/Cava-Holiday-Hours-1024x683.webp",
+    "seoAlt": "CAVA Holiday Hours – Holiday opening and closing schedule for all locations",
+    "menuIds": []
+  },
+  {
+    "name": "cava-hours.webp",
+    "destPath": "public\\images\\cava-hours.webp",
+    "sizeKb": "79.5",
+    "status": "SUCCESS",
+    "sourceUrl": "https://cavasmenu.com/wp-content/uploads/2026/01/Cava-Hours-1024x683.webp",
+    "seoAlt": "CAVA Daily Hours – Opening and closing operating hours by location",
+    "menuIds": []
+  }
+]
