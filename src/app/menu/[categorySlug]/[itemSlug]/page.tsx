@@ -122,7 +122,8 @@ const macroColors = {
 };
 
 // ── Render markdown-style links ──
-function renderText(text: string) {
+function renderText(text?: string | null) {
+  if (!text || typeof text !== "string") return null;
   const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
   return parts.map((part, i) => {
     const match = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
@@ -360,71 +361,95 @@ export default async function ItemPage({
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-[10px] space-y-[10px]">
 
           {/* Price and Calories */}
-          <Section heading={`CAVA ${item.name} Price and Calories`}>
-            <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.priceCalories)}</p>
-          </Section>
+          {content.priceCalories && (
+            <Section heading={`CAVA ${item.name} Price and Calories`}>
+              <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.priceCalories)}</p>
+            </Section>
+          )}
 
           {/* What Makes Special */}
-          <Section heading={`What Makes CAVA ${item.name} Special?`} className="border-l-4 border-[#0A6847] rounded-l-none">
-            <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.whatMakesSpecial)}</p>
-          </Section>
+          {content.whatMakesSpecial && (
+            <Section heading={`What Makes CAVA ${item.name} Special?`} className="border-l-4 border-[#0A6847] rounded-l-none">
+              <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.whatMakesSpecial)}</p>
+            </Section>
+          )}
 
           {/* Nutrition Facts */}
-          <Section heading={`CAVA ${item.name} Nutrition Facts`}>
-            <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.nutritionFacts)}</p>
-          </Section>
+          {content.nutritionFacts && (
+            <Section heading={`CAVA ${item.name} Nutrition Facts`}>
+              <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.nutritionFacts)}</p>
+            </Section>
+          )}
 
           {/* What's Inside */}
-          <Section heading={`What's Inside CAVA ${item.name}?`}>
-            {content.whatsInside.split("\n\n").map((para, i) => (
-              <p key={i} className="text-[#4B5563] leading-relaxed text-[15px] mb-3 last:mb-0">
-                {renderText(para)}
-              </p>
-            ))}
-          </Section>
+          {content.whatsInside && (
+            <Section heading={`What's Inside CAVA ${item.name}?`}>
+              {content.whatsInside.split("\n\n").map((para, i) => (
+                <p key={i} className="text-[#4B5563] leading-relaxed text-[15px] mb-3 last:mb-0">
+                  {renderText(para)}
+                </p>
+              ))}
+            </Section>
+          )}
 
           {/* Taste Like */}
-          <Section heading={`What Does CAVA ${item.name} Taste Like?`}>
-            <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.tasteLike)}</p>
-          </Section>
+          {content.tasteLike && (
+            <Section heading={`What Does CAVA ${item.name} Taste Like?`}>
+              <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.tasteLike)}</p>
+            </Section>
+          )}
 
           {/* Customize */}
-          <Section heading={`Best Ways to Customize Your CAVA ${item.name}`}>
-            <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.customize)}</p>
-          </Section>
+          {content.customize && (
+            <Section heading={`Best Ways to Customize Your CAVA ${item.name}`}>
+              <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.customize)}</p>
+            </Section>
+          )}
 
           {/* Pairs Well */}
-          <Section heading={`Best Sides and Drinks to Pair With CAVA ${item.name}`}>
-            <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.pairsWell)}</p>
-          </Section>
+          {content.pairsWell && (
+            <Section heading={`Best Sides and Drinks to Pair With CAVA ${item.name}`}>
+              <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.pairsWell)}</p>
+            </Section>
+          )}
 
           {/* Healthy Choice */}
-          <Section heading={`Is CAVA ${item.name} a Healthy Choice?`} className="bg-emerald-50/30 border-emerald-200">
-            <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.healthyChoice)}</p>
-          </Section>
+          {content.healthyChoice && (
+            <Section heading={`Is CAVA ${item.name} a Healthy Choice?`} className="bg-emerald-50/30 border-emerald-200">
+              <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.healthyChoice)}</p>
+            </Section>
+          )}
 
           {/* How to Order */}
-          <Section heading={`How to Order CAVA ${item.name} Online or In Store`}>
-            <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.howToOrder)}</p>
-          </Section>
+          {content.howToOrder && (
+            <Section heading={`How to Order CAVA ${item.name} Online or In Store`}>
+              <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.howToOrder)}</p>
+            </Section>
+          )}
 
           {/* vs Alternatives */}
-          <Section heading={`CAVA ${item.name} vs Similar Menu Items`}>
-            <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.vsAlternatives)}</p>
-          </Section>
+          {content.vsAlternatives && (
+            <Section heading={`CAVA ${item.name} vs Similar Menu Items`}>
+              <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.vsAlternatives)}</p>
+            </Section>
+          )}
 
           {/* Who Should Try */}
-          <Section heading={`Who Should Try CAVA ${item.name}?`}>
-            <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.whoShouldTry)}</p>
-          </Section>
+          {content.whoShouldTry && (
+            <Section heading={`Who Should Try CAVA ${item.name}?`}>
+              <p className="text-[#4B5563] leading-relaxed text-[15px]">{renderText(content.whoShouldTry)}</p>
+            </Section>
+          )}
 
           {/* Worth Trying */}
-          <section className="bg-gradient-to-r from-[#0A6847] to-[#065F46] rounded-2xl p-6 sm:p-8 text-white">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-3 text-white">
-              Is CAVA {item.name} Worth Trying?
-            </h2>
-            <p className="text-white/90 leading-relaxed text-[15px]">{content.worthTrying}</p>
-          </section>
+          {content.worthTrying && (
+            <section className="bg-gradient-to-r from-[#0A6847] to-[#065F46] rounded-2xl p-6 sm:p-8 text-white">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-3 text-white">
+                Is CAVA {item.name} Worth Trying?
+              </h2>
+              <p className="text-white/90 leading-relaxed text-[15px]">{content.worthTrying}</p>
+            </section>
+          )}
 
           {/* FAQs */}
           {content.faqs?.length > 0 && (
