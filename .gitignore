@@ -39,3 +39,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# scraper, tools, notes & temp files
+CLAUDE.md
+AGENTS.md
+scrape*.js
+download*.js
+generate*.js
+delete-*.js
+screenshot*.js
+validate*.js
+*.html
+*.txt
+*.png
+optimization_summary.json
+doordash*.json
+cava-*.json
+
