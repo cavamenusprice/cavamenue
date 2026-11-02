@@ -8,7 +8,7 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 24,
+          fontSize: 22,
           background: "#0A6847",
           width: "100%",
           height: "100%",
@@ -16,8 +16,9 @@ export default function Icon() {
           alignItems: "center",
           justifyContent: "center",
           color: "white",
-          borderRadius: "6px",
+          borderRadius: "7px",
           fontWeight: 900,
+          borderBottom: "3px solid #E3A33B",
         }}
       >
         C
