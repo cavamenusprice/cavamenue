@@ -52,6 +52,7 @@ validate*.js
 *.html
 *.txt
 *.png
+!public/*.png
 optimization_summary.json
 doordash*.json
 cava-*.json
