@@ -51,6 +51,7 @@ screenshot*.js
 validate*.js
 *.html
 *.txt
+!public/*.txt
 *.png
 !public/*.png
 optimization_summary.json
