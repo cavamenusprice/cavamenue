@@ -101,6 +101,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           content="p9LpkJddW9KWZI5a4ogy0erH0sMWbCKSEodZ6OAOIo8"
         />
         <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1270281377014483"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-L8CRSEN1H1"
           strategy="afterInteractive"
         />
